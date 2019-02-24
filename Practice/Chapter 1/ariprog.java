@@ -75,7 +75,7 @@ public class ariprog {
         for(int k = 2; k < N; k++)
             if(Arrays.binarySearch(list, a + k*b) < 0)
                 return;
-            
+
         results.add(new int[]{a,b});
     }
 }
